@@ -27,7 +27,7 @@ nnUNet_predict -i FOLDER_WITH_TEST_CASES -o OUTPUT_FOLDER_MODEL1 -tr nnUNetTrain
 nnUNet_predict -i FOLDER_WITH_TEST_CASES -o OUTPUT_FOLDER_MODEL2 -tr nnUNetTrainerV2 -ctr nnUNetTrainerV2CascadeFullRes -m 3d_fullres -p nnUNetPlansv2.1 -t Task007_She -z
 nnUNet_ensemble -f OUTPUT_FOLDER_MODEL1 OUTPUT_FOLDER_MODEL2 -o OUTPUT_FOLDER -pp /data/xiehui_data/nnUnetFrame/DATASET/nnUNet_trained_models/nnUNet/ensembles/Task007_She/ensemble_2d__nnUNetTrainerV2__nnUNetPlansv2.1--3d_fullres__nnUNetTrainerV2__nnUNetPlansv2.1/postprocessing.json
 
-# Task003_SheTumorT1C(tongue OTSCC t1c)
+### Task003_SheTumorT1C(tongue OTSCC t1c)
 Here is how you should predict test cases. Run in sequential order and replace all input and output folder names with your personalized ones
 
 nnUNet_predict -i FOLDER_WITH_TEST_CASES -o OUTPUT_FOLDER_MODEL1 -tr nnUNetTrainerV2 -ctr nnUNetTrainerV2CascadeFullRes -m 2d -p nnUNetPlansv2.1 -t Task003_SheTumorT1C -z
