@@ -1,6 +1,8 @@
 # nnUnetForOTSCC
 This is the nnUnet v1 model for oral tongue squamous cell carcinoma.
 
+According to GPL v3, if someone use our models to train new tongue and tongue tomor segementation models, we encourage them uploading and sharing their newly trained models for others to download.
+
 We trained four segmentation models for whole tongue and tongue cancer with T1c and T2WI using nnUnet v1(https://github.com/MIC-DKFZ/nnUNet/tree/nnunetv1).
 
 Note: We will upload the model to the repository as soon as possible after the publication of the paper.
